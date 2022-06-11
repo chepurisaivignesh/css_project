@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav{
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 3rem 3rem 0 3rem;
+}
+.navwithimg{
+    display: flex;
+}
+.navwithimg ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.navwithimg ul li{
+    color: aliceblue;
+}
+.navwithcart{
+    display: flex;
+    justify-content: right;
+}
+.navwithcart ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;   
+}
+.navwithcart ul li,.navwithimg ul li{
+    padding:0 0.5rem 0 0.5rem;
+    color: aliceblue;
+}
+.num3{
+    border-style: solid;
+    border-radius: 50%;
+    padding: 0.17rem 0.5rem 0.17rem 0.5rem;
+    border-width: 0.01rem;
+}
+hr{
+    padding: 0;
+    margin:1rem 3rem 3rem 3rem;
+}
+.section1{
+    padding: 0;
+    margin: 0 3rem 3rem 3rem;
+    height: 120vh;
+    background: url("assets/Rectangle\ 2.png") no-repeat 50% 50%,url("assets/Ellipse\ 2.png") no-repeat 90% 20%;
+    position: relative;
+}
+ .summerwrapped{
+    
+    position: absolute;
+    top: 5%;
+    left: 30%;
+
+}
+.intowatches{
+    position: absolute;
+    top: 60%;
+    left: 47%;
+} 
+.rect1{
+    position: absolute;
+    top: 20%;
+    left:5%
+}
+.star1{
+    position: absolute;
+    top:30%;
+    left: 15%;
+}
+.handmade{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.gallery{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+.section2{
+    padding: 0;
+    margin: 0 3rem 3rem 3rem;
+    height: 150vh;
+    background: url("assets/THE\ WHEEL.png") no-repeat 40% 10%;
+    position: relative;
+}
+.star2{
+    position: absolute;
+    top:0%;
+    left: 85%;
+}
+.star3{
+    position: absolute;
+    top:33%;
+    left: 12%;
+}
+.year{
+    position: absolute;
+    top:17%;
+    left: 38%;
+}
+.cont{
+    position: absolute;
+    top:40%;
+    left:60%
+}
+.watch1{
+    position: absolute;
+    top: 41%;
+    left: 30%;
+}
+.watch2{
+    position: absolute;
+    top: 52%;
+    left:5%;
+}
+.section3{
+    padding: 0;
+    background: url("assets/Ellipse\ 3.png") no-repeat 0% 15%;
+    margin: 8rem 0rem 8rem 0rem;
+    height: 150vh;
+    position: relative;
+}
+.splwatches{
+    position: absolute;
+    top: 6%;
+    left:24%
+}
+.spl{
+    position: absolute;
+    top: 14%;
+    left: 18%;
+}
+.exp{
+    position: absolute;
+    top:22%;
+    left:39%;
+}
+.watchrect{
+    position: absolute;
+    top: 35%;
+    left: 0%;
+}
+.sec3gallery{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+.sec3con{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.sec3watch{
+    position: absolute;
+    top:50%;
+    left: 65%;
+}
+.sec3rect{
+    position: absolute;
+    top:47%;
+    left: 65%;
+}
+.section4{
+    padding: 0;
+    background: url("assets/Frame\ 11.png") no-repeat center 70%;
+    height: 150vh;
+    position: relative;
+}
+.pop{
+    position: absolute;
+    top: 7%;
+    left: 39%;
+}
+.goods{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+.star4{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+}
+.larrow{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.rarrow{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+.section5bg{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.footer{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.socials{
+    position: relative;
+}
+.socials img{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
